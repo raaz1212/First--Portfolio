@@ -3,7 +3,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* header and navigation styles */
 .nav-title {
     Weight: 800;
     Size: 45px;
@@ -12,15 +11,79 @@
 .text-primary {
     color: #FD6E0A;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 51px 226px;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
-nav ul{
+
+nav ul {
     display: flex;
+    align-items: center;
+}
+
+.pri-btn {
+    font-weight: 700;
+    font-size: 20px;
+    width: 150px;
+    height: 64px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+.banner {
+    margin: 0 38px 0 226px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.pri-btn2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    padding: 18px 35px;
+    text-align: center;
+    border: 0;
+}
+
+.header {
+    background: #FFF8F3;
+    width: 1600px;
+    height: 792px;
+    left: 0px;
+    top: 0px;
+    background-image: url('/images/header_bg.png'), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
